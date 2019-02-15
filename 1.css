@@ -1,0 +1,90 @@
+	body{
+	background: #007980;
+}
+.firstdiv{
+	width: 85%;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	margin:8%;
+	border-radius: 3%;
+}
+.subof_firstdiv{
+	background-color: grey;
+	margin: 2%;
+	width: auto;
+	border-radius: 2%;
+	text-align: center;
+	box-shadow: 4px 4px 0 0;
+
+}
+img{ 
+	width: 50%;
+	margin: 5%;
+	border-radius: 10%
+}
+
+/*this is mob view*/
+
+@media screen and (min-width: 240px) and (max-width: 370px) {
+
+body{
+	background: black;
+}
+.firstdiv{
+	background: grey;
+	display: inline-block;
+	justify-content: space-around;
+	margin:7%;
+	border-radius: 1%;
+	word-wrap: break-word;
+}
+.subof_firstdiv{
+	background-color: white;
+	margin: 2%;
+	width: 96%;
+	border-radius: 15%;
+	text-align: center;
+	box-shadow: 4px 4px 0 0;
+
+}
+img{ 
+	width: 50%;
+	margin: 5%;
+	border-radius: 10%
+}
+
+}
+
+/*tab view*/
+@media screen and (min-width: 371px) and (max-width: 700px) {
+	body{
+	background: red;
+}
+.firstdiv{
+	background: yellow;
+	display: flex;
+	flex-wrap: wrap  ;
+	/*justify-content: space-around;*/
+	width: 96%;
+	margin: 2%;
+	border-radius: 0%;
+	word-wrap: break-word;
+}
+.subof_firstdiv{
+	background-color: white;
+	margin: 2%;
+	width: 45%;
+	border-radius: 6%;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px;
+	padding-bottom: 2%;
+
+}
+img{ 
+	width: 50%;
+	margin: 5%;
+	border-radius: 10%
+}
+
+}

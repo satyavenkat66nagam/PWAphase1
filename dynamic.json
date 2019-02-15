@@ -1,0 +1,45 @@
+{
+	"profile":{
+		"img":"profile pic.jpg",
+		"name":"Satya Venkat Nagam",
+		"roll":"17A31A0548",
+		"place":"kakinada",
+		"des":"Always playing with Trainers"
+
+	},
+	"career":{
+		"info":"I want to seek a position where i can explore my thoughts"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"Btech",
+			"institute":"Pragti",
+			"per":"80",
+			"yop":"2021"
+		},
+		{
+			"sno":"2",
+			"degree":"Intermediate",
+			"institute":"Sri Praksh",
+			"per":"91",
+			"yop":"2017"
+		},
+		{
+			"sno":"3",
+			"degree":"SSC",
+			"institute":"Sri Prakash",
+			"per":"9.7",
+			"yop":"2015"
+		}
+
+	],
+	"languages":[
+		{
+			"lang":"English"
+		},
+		{
+			"lang":"Telugu"
+		}
+	]
+}
